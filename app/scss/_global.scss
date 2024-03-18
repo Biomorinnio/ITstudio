@@ -1,0 +1,96 @@
+html {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 400;
+  position: relative;
+}
+
+button {
+  padding: 0;
+}
+
+a,
+button {
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: 0.3s all ease;
+  -moz-transition: 0.3s all ease;
+  -ms-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  border: none;
+}
+
+svg,
+svg g,
+svg g path,
+svg path {
+  -webkit-transition: 0.3s all ease;
+  -moz-transition: 0.3s all ease;
+  -ms-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+h1 {
+  font-size: 75px;
+  font-weight: 600;
+  line-height: 90px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+h1, h2, h3, h4, h5, p{
+  margin: 0;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+input{
+  border: none;
+
+  &:focus{
+    outline: none;
+  }
+}
+
+textarea{
+  resize: none;
+
+  &:focus{
+    outline: none;
+  }
+}
+
+.mobile{
+  display: none !important;
+}

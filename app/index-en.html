@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT-studio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style-en.min.css">
+</head>
+<body>
+
+    <div class="go-top">
+        <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 9L20.7071 8.29289L21.4142 9L20.7071 9.70711L20 9ZM1.25 10C0.697715 10 0.25 9.55228 0.25 9C0.25 8.44772 0.697715 8 1.25 8V10ZM13.2071 0.792893L20.7071 8.29289L19.2929 9.70711L11.7929 2.20711L13.2071 0.792893ZM20.7071 9.70711L13.2071 17.2071L11.7929 15.7929L19.2929 8.29289L20.7071 9.70711ZM20 10H1.25V8H20V10Z" fill="#008cb8"/>
+        </svg>
+    </div>
+
+    <header class="header">
+        <div class="container header__inner">
+            <a href="#" class="header__logo">
+                IT STUDIO X
+            </a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"><a href="#services" class="header__item-link">Services</a></li>
+                    <li class="header__item"><a href="#process" class="header__item-link">Process</a></li>
+                    <li class="header__item"><a href="#tech" class="header__item-link">Technologies</a></li>
+                    <li class="header__item"><a href="#clients" class="header__item-link">Customers</a></li>
+                    <li class="header__item"><a href="#contacts" class="header__item-link">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="header__switches">
+                <button class="header__switch">
+                    <a href="index.html" class="header__switch-link">
+                        Ru
+                    </a>
+                </button>
+                <button class="header__switch active">
+                    <a class="header__switch-link">
+                        En
+                    </a>
+                </button>
+            </div>
+            <img src="img/header__burger.svg" alt="" class="header__burger-img mobile">
+        </div>
+
+        <menu class="header__menu mobile">
+            <div class="header__inner">
+                <a href="#" class="header__logo">
+                    IT STUDIO X
+                </a>
+                <svg class="header__burger-close" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 1L1 13M1 1L13 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"><a href="#services" class="header__item-link">Services</a></li>
+                    <li class="header__item"><a href="#process" class="header__item-link">Process</a></li>
+                    <li class="header__item"><a href="#tech" class="header__item-link">Technologies</a></li>
+                    <li class="header__item"><a href="#clients" class="header__item-link">Customers</a></li>
+                    <li class="header__item"><a href="#contacts" class="header__item-link">Contacts</a></li>
+                </ul>
+                <div class="header__switches">
+                    <button class="header__switch">
+                        <a href="index.html" class="header__switch-link">
+                            Ru
+                        </a>
+                    </button>
+                    <button class="header__switch active">
+                        <a class="header__switch-link">
+                            En
+                        </a>
+                    </button>
+                </div>
+            </nav>
+            <div class="footer__contacts-descr">
+                <h5 class="footer__nav-title">Contacts</h5>
+                <ul class="footer__contacts-list">
+                    <li class="footer__contacts-item"><img src="img/telegram-black.svg" alt="" class="footer__contacts-img"></li>
+                    <li class="footer__contacts-item"><img src="img/whatsapp-black.svg" alt="" class="footer__contacts-img"></li>
+                    <li class="footer__contacts-item"><img src="img/gmail-black.svg" alt="" class="footer__contacts-img"></li>
+                </ul>
+            </div>
+        </menu>
+    </header>
+
+    <main class="main">
+
+        <section class="welcome">
+            <div class="container welcome__inner">
+                <h1 class="welcome__title">Join to the<br class="mobile"/> <s>DevOps</s> culture </h1>
+                <h3 class="welcome__subtitle">Where every process becomes faster, more convenient and safer for your business.</h3>
+                <ul class="welcome__list">
+                    <li class="welcome__item">
+                        <img src="img/welcome__item-1.svg" alt="" class="welcome__item-img">
+                        <article class="welcome__item-article">
+                            <h5 class="welcome__item-title">Saving resources</h5>
+                            <p class="welcome__item-text">Cost minimization without sacrificing quality.</p>
+                        </article>
+                    </li>
+                    <li class="welcome__item">
+                        <img src="img/welcome__item-2.svg" alt="" class="welcome__item-img">
+                        <article class="welcome__item-article">
+                            <h5 class="welcome__item-title">Stability of operation</h5>
+                            <p class="welcome__item-text">Reliable solutions for your
+                                continuous operations.</p>
+                        </article>
+                    </li>
+                    <li class="welcome__item">
+                        <img src="img/welcome__item-3.svg" alt="" class="welcome__item-img">
+                        <article class="welcome__item-article">
+                            <h5 class="welcome__item-title">Reliable support</h5>
+                            <p class="welcome__item-text">reliable solutions for your
+                                continuous operations.</p>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="container">
+                <h2 class="services__title">
+                    Services
+                </h2>
+                <span class="services__text">We provide a full range of services to achieve<br/>
+                    your business goals with confidence in quality and safety.</span>
+                <ul class="services__list">
+                    <li class="services__item">
+                        <h4 class="services__item-title">Monitoring</h4>
+                        <div class="services__item-points">
+                            <span class="services__item-point">24/7 overview of infrastructure status</span>
+                            <span class="services__item-point"> Fault notifications</span>
+                        </div>
+                        <p class="services__item-text">Grafana / Loki / Prometheus</p>
+                        <span class="services__item-point">Ensure the stability of your systems with our 24/7 monitoring solutions to prevent problems before they occur</span>
+                    </li>
+                    <li class="services__item">
+                        <h4 class="services__item-title">CI/CD</h4>
+                        <span class="services__item-point">Pipeline development from A to Z</span>
+                        <p class="services__item-text">MySQL / PostgreSQL / Redis / MongoDB / InfluxDB</p>
+                        <span class="services__item-point">Accelerate development and testing processes with our CI/CD solutions, reducing time-to-market and improving quality.</span>
+                    </li>
+                    <li class="services__item">
+                        <h4 class="services__item-title">Containerization</h4>
+                        <span class="services__item-point">Application containerization</span>
+                        <p class="services__item-text">Docker / Nomad</p>
+                        <span class="services__item-point">Improve application deployment and scalability with containerization best practices.</span>
+                    </li>
+                    <li class="services__item">
+                        <h4 class="services__item-title">Infrastructure</h4>
+                        <div class="services__item-points">
+                            <span class="services__item-point">On-prem migration to the cloud</span>
+                            <span class="services__item-point">Infrastructure as Code (IaC) - Terraform</span>
+                            <span class="services__item-point">Infrastructure - AWS, Hetzner, Yandex.Cloud</span>
+                            <span class="services__item-point">VPN servers</span>
+                            <span class="services__item-point">Price optimization</span>
+                        </div>
+                        <span class="services__item-point">Create a reliable and scalable infrastructure with IaC tools and cloud services</span>
+                    </li>
+                    <li class="services__item">
+                        <h4 class="services__item-title">Database</h4>
+                        <span class="services__item-point">Design, queries and potimization</span>
+                        <p class="services__item-text">MySQL, PostgreSQL, Redis, MongoDB, InfluxDB</p>
+                        <span class="services__item-point">We guarantee the efficiency and security of your databases by ensuring that they are designed, optimized and supported at all stages of operation.</span>
+                    </li>
+                    <li class="services__item">
+                        <h4 class="services__item-title">Training and referral</h4>
+                        <div class="services__item-points">
+                            <span class="services__item-point">Mentoring</span>
+                            <span class="services__item-point">Interviewing</span>
+                            <span class="services__item-point">Managing the development team</span>
+                        </div>
+                        <span class="services__item-point">Enhance your teams' competencies through targeted training and professional mentoring in DevOps and modern IT practices.</span>
+                    </li>
+             
+                </ul>
+            </div>
+        </section>
+
+        <section class="process" id="process">
+            <div class="container">
+                <h2 class="process__title">Implementation process</h2>
+                <ul class="process__list">
+                    <li class="process__item">
+                        <div class="process__item-content">
+                            <img src="img/process__item-1.svg" alt="" class="process__item-img">
+                        </div>
+                        <div class="process__item-descr">
+                            <h4 class="process__item-title">Research</h4>
+                            <p class="process__item-text">Analyze your current infrastructure and needs, identify key areas for improvement and develop an implementation strategy</p>
+                        </div>
+                    </li>
+                    <li class="process__item">
+                        <div class="process__item-content">
+                            <img src="img/process__item-2.svg" alt="" class="process__item-img">
+                        </div>
+                        <div class="process__item-descr">
+                            <h4 class="process__item-title">Realization</h4>
+                            <p class="process__item-text">Implement solutions that align with your strategy. This stage includes customizing systems, integrating the necessary tools and training your team</p>
+                        </div>
+                    </li>
+                    <li class="process__item">
+                        <div class="process__item-content">
+                            <img src="img/process__item-3.svg" alt="" class="process__item-img">
+                        </div>
+                        <div class="process__item-descr">
+                            <h4 class="process__item-title">Support</h4>
+                            <p class="process__item-text">We provide continuous support and optimization of implemented solutions, ensuring their effectiveness and relevance in the long term</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="tech" id="tech">
+            <div class="container">
+                <h2 class="tech__title">Technologies</h2>
+                <ul class="tech__list">
+                    <li class="tech__item">
+                        <div class="tech__img-box">
+                            <img src="img/tech__item-1.svg" alt="" class="tech__item-img">
+                        </div>
+                        <article class="tech__item-article">
+                            <h5 class="tech__item-title">Docker</h5>
+                            <p class="tech__item-text">A containerization platform for packaging applications and their dependencies.</p>
+                        </article>
+                    </li>
+                    <li class="tech__item">
+                        <div class="tech__img-box">
+                            <img src="img/tech__item-2.svg" alt="" class="tech__item-img">
+                        </div>
+                        <article class="tech__item-article">
+                            <h5 class="tech__item-title">Ansible</h5>
+                            <p class="tech__item-text">configuration management system written in the Python programming language</p>
+                        </article>
+                    </li>
+                    <li class="tech__item">
+                        <div class="tech__img-box">
+                            <img src="img/tech__item-3.svg" alt="" class="tech__item-img">
+                        </div>
+                        <article class="tech__item-article">
+                            <h5 class="tech__item-title">Go (Golang)</h5>
+                            <p class="tech__item-text">A high-performance language, often used in DevOps tools and systems.</p>
+                        </article>
+                    </li>
+                    <li class="tech__item">
+                        <div class="tech__img-box">
+                            <img src="img/tech__item-4.svg" alt="" class="tech__item-img">
+                        </div>
+                        <article class="tech__item-article">
+                            <h5 class="tech__item-title">Terraform</h5>
+                            <p class="tech__item-text">A tool for creating, modifying and versioning infrastructure securely and efficiently.</p>
+                        </article>
+                    </li>
+                    <li class="tech__item">
+                        <div class="tech__img-box">
+                            <img src="img/tech__item-5.svg" alt="" class="tech__item-img">
+                        </div>
+                        <article class="tech__item-article">
+                            <h5 class="tech__item-title">Kubernetes</h5>
+                            <p class="tech__item-text">A system for automating the deployment, scaling, and management of containerized applications.</p>
+                        </article>
+                    </li>
+                    <li class="tech__item">
+                        <div class="tech__img-box">
+                            <img src="img/tech__item-6.svg" alt="" class="tech__item-img">
+                        </div>
+                        <article class="tech__item-article">
+                            <h5 class="tech__item-title">Git</h5>
+                            <p class="tech__item-text">Version control system needed to manage changes to code.</p>
+                        </article>
+                    </li>
+                    <li class="tech__item">
+                        <div class="tech__img-box">
+                            <img src="img/tech__item-7.svg" alt="" class="tech__item-img">
+                        </div>
+                        <article class="tech__item-article">
+                            <h5 class="tech__item-title">Bash</h5>
+                            <p class="tech__item-text">Widely used for server-side scripting and automating tasks in Unix/Linux.</p>
+                        </article>
+                    </li>
+                    <li class="tech__item">
+                        <div class="tech__img-box">
+                            <img src="img/tech__item-8.svg" alt="" class="tech__item-img">
+                        </div>
+                        <article class="tech__item-article">
+                            <h5 class="tech__item-title">SQL</h5>
+                            <p class="tech__item-text">programming language for storing and processing information in a relational database.</p>
+                        </article>
+                    </li>
+                    <li class="tech__item">
+                        <div class="tech__img-box">
+                            <img src="img/tech__item-9.svg" alt="" class="tech__item-img">
+                        </div>
+                        <article class="tech__item-article">
+                            <h5 class="tech__item-title">Python</h5>
+                            <p class="tech__item-text">Widely used for scripting, automation and web application development.</p>
+                        </article>
+                    </li>
+                    <li class="tech__item">
+                        <div class="tech__img-box">
+                            <img src="img/tech__item-10.svg" alt="" class="tech__item-img">
+                        </div>
+                        <article class="tech__item-article">
+                            <h5 class="tech__item-title">Java</h5>
+                            <p class="tech__item-text">Popular for developing large-scale and highly loaded systems.</p>
+                        </article>
+                    </li>
+                    <li class="tech__item">
+                        <div class="tech__img-box">
+                            <img src="img/tech__item-11.svg" alt="" class="tech__item-img">
+                        </div>
+                        <article class="tech__item-article">
+                            <h5 class="tech__item-title">Node.js</h5>
+                            <p class="tech__item-text">A software platform based on the V8 engine that transforms JavaScript from a highly specialized language into a general-purpose language.</p>
+                        </article>
+                    </li>
+                    <li class="tech__item">
+                        <div class="tech__img-box">
+                            <img src="img/tech__item-12.svg" alt="" class="tech__item-img">
+                        </div>
+                        <article class="tech__item-article">
+                            <h5 class="tech__item-title">JavaScript</h5>
+                            <p class="tech__item-text">A multi-paradigm programming language.</p>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="clients" id="clients">
+            <div class="container">
+                <h2 class="clients__title">Clients</h2>
+                <span class="clients__text">Real-life examples demonstrating our expertise in implementing complex and highly loaded systems</span>
+            
+                <div class="swiper-clients">
+              
+                    <div class="swiper-wrapper">
+                 
+                        <div class="swiper-slide">
+                            <div class="swiper__clients-content">
+                                <img src="img/swiper__clients-1.png" alt="" class="swiper__clients-img">
+                                <article class="swiper__clients-article mobile">
+                                    <h5 class="swiper__clients-title">
+                                        <s>Global-Media.info</s> /<br/>  IPTV Video Broadcasting Service
+                                    </h5>
+                                    <p class="swiper__clients-text">
+                                        <w>Technologies:</w><br/> Grafana, Prometheus, InfluxDB, Go, NodeJS, 
+                                        Telegram API, React, Flussonic API, Docker, Ansible
+                                    </p>
+                                </article>
+                            </div>
+                            <div class="swiper__clients-descr">
+                                <h5 class="swiper__clients-title">
+                                    <s>Global-Media.info</s> /  IPTV Video Broadcasting Service
+                                </h5>
+                                <p class="swiper__clients-text">
+                                    GlobalMedia is an advanced IPTV video broadcasting service. We developed a system for monitoring all server metrics presented in a user-friendly interface, including business metrics for in-depth analysis and clear visualization. After careful analysis of the collected data, we migrated to more optimized servers and pooled resources, reducing costs by over 70%. In addition, developed a Telegram bot prototype to simplify and speed up access and payment processes for customers. Additional tools were implemented on Go for real-time validation of video streams and a prototype administrative panel for customer management. All applications were adapted to run in containers and run in Docker, increasing their efficiency and scalability.
+                                </p>
+                                <span class="swiper__clients-more mobile">
+                                    <f>disclose</f>
+                                 
+                                    <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.25279 6.50683C4.14044 6.68197 3.85956 6.68197 3.7472 6.50683L0.0395427 0.727153C-0.0728106 0.552012 0.0676313 0.333085 0.292338 0.333085L7.70766 0.333086C7.93237 0.333086 8.07281 0.552012 7.96046 0.727154L4.25279 6.50683Z" fill="#008CB8"/>
+                                    </svg>
+                                        
+                                </span>
+                                <p class="swiper__clients-text">
+                                    <w>Technologies:</w><br class="mobile"/> Grafana, Prometheus, InfluxDB, Go, NodeJS, 
+                                    Telegram API, React, Flussonic API, Docker, Ansible
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper__clients-content">
+                                <img src="img/swiper__clients-1.png" alt="" class="swiper__clients-img">
+                                <article class="swiper__clients-article mobile">
+                                    <h5 class="swiper__clients-title">
+                                        <s>Global-Media.info</s> /<br/>  IPTV Video Broadcasting Service
+                                    </h5>
+                                    <p class="swiper__clients-text">
+                                        <w>Technologies:</w><br/> Grafana, Prometheus, InfluxDB, Go, NodeJS, 
+                                        Telegram API, React, Flussonic API, Docker, Ansible
+                                    </p>
+                                </article>
+                            </div>
+                            <div class="swiper__clients-descr">
+                                <h5 class="swiper__clients-title">
+                                    <s>Global-Media.info</s> /  IPTV Video Broadcasting Service
+                                </h5>
+                                <p class="swiper__clients-text">
+                                    GlobalMedia is an advanced IPTV video broadcasting service. We developed a system for monitoring all server metrics presented in a user-friendly interface, including business metrics for in-depth analysis and clear visualization. After careful analysis of the collected data, we migrated to more optimized servers and pooled resources, reducing costs by over 70%. In addition, developed a Telegram bot prototype to simplify and speed up access and payment processes for customers. Additional tools were implemented on Go for real-time validation of video streams and a prototype administrative panel for customer management. All applications were adapted to run in containers and run in Docker, increasing their efficiency and scalability.
+                                </p>
+                                <span class="swiper__clients-more mobile">
+                                    <f>disclose</f>
+                                 
+                                    <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.25279 6.50683C4.14044 6.68197 3.85956 6.68197 3.7472 6.50683L0.0395427 0.727153C-0.0728106 0.552012 0.0676313 0.333085 0.292338 0.333085L7.70766 0.333086C7.93237 0.333086 8.07281 0.552012 7.96046 0.727154L4.25279 6.50683Z" fill="#008CB8"/>
+                                    </svg>
+                                        
+                                </span>
+                                <p class="swiper__clients-text">
+                                    <w>Technologies:</w><br class="mobile"/> Grafana, Prometheus, InfluxDB, Go, NodeJS, 
+                                    Telegram API, React, Flussonic API, Docker, Ansible
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper__clients-content">
+                                <img src="img/swiper__clients-1.png" alt="" class="swiper__clients-img">
+                                <article class="swiper__clients-article mobile">
+                                    <h5 class="swiper__clients-title">
+                                        <s>Global-Media.info</s> /<br/>  IPTV Video Broadcasting Service
+                                    </h5>
+                                    <p class="swiper__clients-text">
+                                        <w>Technologies:</w><br/> Grafana, Prometheus, InfluxDB, Go, NodeJS, 
+                                        Telegram API, React, Flussonic API, Docker, Ansible
+                                    </p>
+                                </article>
+                            </div>
+                            <div class="swiper__clients-descr">
+                                <h5 class="swiper__clients-title">
+                                    <s>Global-Media.info</s> /  IPTV Video Broadcasting Service
+                                </h5>
+                                <p class="swiper__clients-text">
+                                    GlobalMedia is an advanced IPTV video broadcasting service. We developed a system for monitoring all server metrics presented in a user-friendly interface, including business metrics for in-depth analysis and clear visualization. After careful analysis of the collected data, we migrated to more optimized servers and pooled resources, reducing costs by over 70%. In addition, developed a Telegram bot prototype to simplify and speed up access and payment processes for customers. Additional tools were implemented on Go for real-time validation of video streams and a prototype administrative panel for customer management. All applications were adapted to run in containers and run in Docker, increasing their efficiency and scalability.
+                                </p>
+                                <span class="swiper__clients-more mobile">
+                                    <f>disclose</f>
+                                 
+                                    <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.25279 6.50683C4.14044 6.68197 3.85956 6.68197 3.7472 6.50683L0.0395427 0.727153C-0.0728106 0.552012 0.0676313 0.333085 0.292338 0.333085L7.70766 0.333086C7.93237 0.333086 8.07281 0.552012 7.96046 0.727154L4.25279 6.50683Z" fill="#008CB8"/>
+                                    </svg>
+                                        
+                                </span>
+                                <p class="swiper__clients-text">
+                                    <w>Technologies:</w><br class="mobile"/> Grafana, Prometheus, InfluxDB, Go, NodeJS, 
+                                    Telegram API, React, Flussonic API, Docker, Ansible
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper__clients-content">
+                                <img src="img/swiper__clients-1.png" alt="" class="swiper__clients-img">
+                                <article class="swiper__clients-article mobile">
+                                    <h5 class="swiper__clients-title">
+                                        <s>Global-Media.info</s> /<br/>  IPTV Video Broadcasting Service
+                                    </h5>
+                                    <p class="swiper__clients-text">
+                                        <w>Technologies:</w><br/> Grafana, Prometheus, InfluxDB, Go, NodeJS, 
+                                        Telegram API, React, Flussonic API, Docker, Ansible
+                                    </p>
+                                </article>
+                            </div>
+                            <div class="swiper__clients-descr">
+                                <h5 class="swiper__clients-title">
+                                    <s>Global-Media.info</s> /  IPTV Video Broadcasting Service
+                                </h5>
+                                <p class="swiper__clients-text">
+                                    GlobalMedia is an advanced IPTV video broadcasting service. We developed a system for monitoring all server metrics presented in a user-friendly interface, including business metrics for in-depth analysis and clear visualization. After careful analysis of the collected data, we migrated to more optimized servers and pooled resources, reducing costs by over 70%. In addition, developed a Telegram bot prototype to simplify and speed up access and payment processes for customers. Additional tools were implemented on Go for real-time validation of video streams and a prototype administrative panel for customer management. All applications were adapted to run in containers and run in Docker, increasing their efficiency and scalability.
+                                </p>
+                                <span class="swiper__clients-more mobile">
+                                    <f>disclose</f>
+                                 
+                                    <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.25279 6.50683C4.14044 6.68197 3.85956 6.68197 3.7472 6.50683L0.0395427 0.727153C-0.0728106 0.552012 0.0676313 0.333085 0.292338 0.333085L7.70766 0.333086C7.93237 0.333086 8.07281 0.552012 7.96046 0.727154L4.25279 6.50683Z" fill="#008CB8"/>
+                                    </svg>
+                                        
+                                </span>
+                                <p class="swiper__clients-text">
+                                    <w>Technologies:</w><br class="mobile"/> Grafana, Prometheus, InfluxDB, Go, NodeJS, 
+                                    Telegram API, React, Flussonic API, Docker, Ansible
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper__clients-content">
+                                <img src="img/swiper__clients-1.png" alt="" class="swiper__clients-img">
+                                <article class="swiper__clients-article mobile">
+                                    <h5 class="swiper__clients-title">
+                                        <s>Global-Media.info</s> /<br/>  IPTV Video Broadcasting Service
+                                    </h5>
+                                    <p class="swiper__clients-text">
+                                        <w>Technologies:</w><br/> Grafana, Prometheus, InfluxDB, Go, NodeJS, 
+                                        Telegram API, React, Flussonic API, Docker, Ansible
+                                    </p>
+                                </article>
+                            </div>
+                            <div class="swiper__clients-descr">
+                                <h5 class="swiper__clients-title">
+                                    <s>Global-Media.info</s> /  IPTV Video Broadcasting Service
+                                </h5>
+                                <p class="swiper__clients-text">
+                                    GlobalMedia is an advanced IPTV video broadcasting service. We developed a system for monitoring all server metrics presented in a user-friendly interface, including business metrics for in-depth analysis and clear visualization. After careful analysis of the collected data, we migrated to more optimized servers and pooled resources, reducing costs by over 70%. In addition, developed a Telegram bot prototype to simplify and speed up access and payment processes for customers. Additional tools were implemented on Go for real-time validation of video streams and a prototype administrative panel for customer management. All applications were adapted to run in containers and run in Docker, increasing their efficiency and scalability.
+                                </p>
+                                <span class="swiper__clients-more mobile">
+                                    <f>disclose</f>
+                                 
+                                    <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.25279 6.50683C4.14044 6.68197 3.85956 6.68197 3.7472 6.50683L0.0395427 0.727153C-0.0728106 0.552012 0.0676313 0.333085 0.292338 0.333085L7.70766 0.333086C7.93237 0.333086 8.07281 0.552012 7.96046 0.727154L4.25279 6.50683Z" fill="#008CB8"/>
+                                    </svg>
+                                        
+                                </span>
+                                <p class="swiper__clients-text">
+                                    <w>Technologies:</w><br class="mobile"/> Grafana, Prometheus, InfluxDB, Go, NodeJS, 
+                                    Telegram API, React, Flussonic API, Docker, Ansible
+                                </p>
+                            </div>
+                        </div>
+                     
+                    </div>
+                
+                    
+                    <div class="swiper__clients-navigation">
+                        <div class="swiper-pagination clients"></div>
+
+                        <div class="swiper__navigation-btns">
+                            <div class="swiper-button-prev clients">
+                                <img src="img/swiper__arrow.svg" alt="">
+                            </div>
+                            <div class="swiper-button-next clients">
+                                <img src="img/swiper__arrow.svg" alt="">
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="swiper-clients-mobile mobile">
+              
+                    <div class="swiper-wrapper">
+                 
+                        <div class="swiper-slide">
+                            <div class="swiper__clients-content">
+                                <img src="img/swiper__clients-1.png" alt="" class="swiper__clients-img">
+                                <article class="swiper__clients-article mobile">
+                                    <h5 class="swiper__clients-title">
+                                        <s>Global-Media.info</s> /  IPTV Video Broadcasting Service
+                                    </h5>
+                                    <p class="swiper__clients-text">
+                                        <w>Technologies:</w><br/> Grafana, Prometheus, InfluxDB, Go, NodeJS, 
+                                        Telegram API, React, Flussonic API, Docker, Ansible
+                                    </p>
+                                </article>
+                            </div>
+                            <div class="swiper__clients-descr">
+                                <h5 class="swiper__clients-title">
+                                    <s>Global-Media.info</s> /  IPTV Video Broadcasting Service
+                                </h5>
+                                <p class="swiper__clients-text">
+                                    GlobalMedia is an advanced IPTV video broadcasting service. We developed a system for monitoring all server metrics presented in a user-friendly interface, including business metrics for in-depth analysis and clear visualization. After careful analysis of the collected data, we migrated to more optimized servers and pooled resources, reducing costs by over 70%. In addition, developed a Telegram bot prototype to simplify and speed up access and payment processes for customers. Additional tools were implemented on Go for real-time validation of video streams and a prototype administrative panel for customer management. All applications were adapted to run in containers and run in Docker, increasing their efficiency and scalability.
+                                </p>
+                                <span class="swiper__clients-more mobile">
+                                    <f>disclose</f>
+                                 
+                                    <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.25279 6.50683C4.14044 6.68197 3.85956 6.68197 3.7472 6.50683L0.0395427 0.727153C-0.0728106 0.552012 0.0676313 0.333085 0.292338 0.333085L7.70766 0.333086C7.93237 0.333086 8.07281 0.552012 7.96046 0.727154L4.25279 6.50683Z" fill="#008CB8"/>
+                                    </svg>
+                                        
+                                </span>
+                                <p class="swiper__clients-text">
+                                    <w>Technologies:</w><br class="mobile"/> Grafana, Prometheus, InfluxDB, Go, NodeJS, 
+                                    Telegram API, React, Flussonic API, Docker, Ansible
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper__clients-content">
+                                <img src="img/swiper__clients-1.png" alt="" class="swiper__clients-img">
+                                <article class="swiper__clients-article mobile">
+                                    <h5 class="swiper__clients-title">
+                                        <s>Global-Media.info</s> /  IPTV Video Broadcasting Service
+                                    </h5>
+                                    <p class="swiper__clients-text">
+                                        <w>Technologies:</w><br/> Grafana, Prometheus, InfluxDB, Go, NodeJS, 
+                                        Telegram API, React, Flussonic API, Docker, Ansible
+                                    </p>
+                                </article>
+                            </div>
+                            <div class="swiper__clients-descr">
+                                <h5 class="swiper__clients-title">
+                                    <s>Global-Media.info</s> /  IPTV Video Broadcasting Service
+                                </h5>
+                                <p class="swiper__clients-text">
+                                    GlobalMedia is an advanced IPTV video broadcasting service. We developed a system for monitoring all server metrics presented in a user-friendly interface, including business metrics for in-depth analysis and clear visualization. After careful analysis of the collected data, we migrated to more optimized servers and pooled resources, reducing costs by over 70%. In addition, developed a Telegram bot prototype to simplify and speed up access and payment processes for customers. Additional tools were implemented on Go for real-time validation of video streams and a prototype administrative panel for customer management. All applications were adapted to run in containers and run in Docker, increasing their efficiency and scalability.
+                                </p>
+                                <span class="swiper__clients-more mobile">
+                                    <f>disclose</f>
+                                 
+                                    <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.25279 6.50683C4.14044 6.68197 3.85956 6.68197 3.7472 6.50683L0.0395427 0.727153C-0.0728106 0.552012 0.0676313 0.333085 0.292338 0.333085L7.70766 0.333086C7.93237 0.333086 8.07281 0.552012 7.96046 0.727154L4.25279 6.50683Z" fill="#008CB8"/>
+                                    </svg>
+                                        
+                                </span>
+                                <p class="swiper__clients-text">
+                                    <w>Technologies:</w><br class="mobile"/> Grafana, Prometheus, InfluxDB, Go, NodeJS, 
+                                    Telegram API, React, Flussonic API, Docker, Ansible
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper__clients-content">
+                                <img src="img/swiper__clients-1.png" alt="" class="swiper__clients-img">
+                                <article class="swiper__clients-article mobile">
+                                    <h5 class="swiper__clients-title">
+                                        <s>Global-Media.info</s> /  IPTV Video Broadcasting Service
+                                    </h5>
+                                    <p class="swiper__clients-text">
+                                        <w>Technologies:</w><br/> Grafana, Prometheus, InfluxDB, Go, NodeJS, 
+                                        Telegram API, React, Flussonic API, Docker, Ansible
+                                    </p>
+                                </article>
+                            </div>
+                            <div class="swiper__clients-descr">
+                                <h5 class="swiper__clients-title">
+                                    <s>Global-Media.info</s> /  IPTV Video Broadcasting Service
+                                </h5>
+                                <p class="swiper__clients-text">
+                                    GlobalMedia is an advanced IPTV video broadcasting service. We developed a system for monitoring all server metrics presented in a user-friendly interface, including business metrics for in-depth analysis and clear visualization. After careful analysis of the collected data, we migrated to more optimized servers and pooled resources, reducing costs by over 70%. In addition, developed a Telegram bot prototype to simplify and speed up access and payment processes for customers. Additional tools were implemented on Go for real-time validation of video streams and a prototype administrative panel for customer management. All applications were adapted to run in containers and run in Docker, increasing their efficiency and scalability.
+                                </p>
+                                <span class="swiper__clients-more mobile">
+                                    <f>disclose</f>
+                                 
+                                    <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.25279 6.50683C4.14044 6.68197 3.85956 6.68197 3.7472 6.50683L0.0395427 0.727153C-0.0728106 0.552012 0.0676313 0.333085 0.292338 0.333085L7.70766 0.333086C7.93237 0.333086 8.07281 0.552012 7.96046 0.727154L4.25279 6.50683Z" fill="#008CB8"/>
+                                    </svg>
+                                        
+                                </span>
+                                <p class="swiper__clients-text">
+                                    <w>Technologies:</w><br class="mobile"/> Grafana, Prometheus, InfluxDB, Go, NodeJS, 
+                                    Telegram API, React, Flussonic API, Docker, Ansible
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper__clients-content">
+                                <img src="img/swiper__clients-1.png" alt="" class="swiper__clients-img">
+                                <article class="swiper__clients-article mobile">
+                                    <h5 class="swiper__clients-title">
+                                        <s>Global-Media.info</s> /  IPTV Video Broadcasting Service
+                                    </h5>
+                                    <p class="swiper__clients-text">
+                                        <w>Technologies:</w><br/> Grafana, Prometheus, InfluxDB, Go, NodeJS, 
+                                        Telegram API, React, Flussonic API, Docker, Ansible
+                                    </p>
+                                </article>
+                            </div>
+                            <div class="swiper__clients-descr">
+                                <h5 class="swiper__clients-title">
+                                    <s>Global-Media.info</s> /  IPTV Video Broadcasting Service
+                                </h5>
+                                <p class="swiper__clients-text">
+                                    GlobalMedia is an advanced IPTV video broadcasting service. We developed a system for monitoring all server metrics presented in a user-friendly interface, including business metrics for in-depth analysis and clear visualization. After careful analysis of the collected data, we migrated to more optimized servers and pooled resources, reducing costs by over 70%. In addition, developed a Telegram bot prototype to simplify and speed up access and payment processes for customers. Additional tools were implemented on Go for real-time validation of video streams and a prototype administrative panel for customer management. All applications were adapted to run in containers and run in Docker, increasing their efficiency and scalability.
+                                </p>
+                                <span class="swiper__clients-more mobile">
+                                    <f>disclose</f>
+                                 
+                                    <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.25279 6.50683C4.14044 6.68197 3.85956 6.68197 3.7472 6.50683L0.0395427 0.727153C-0.0728106 0.552012 0.0676313 0.333085 0.292338 0.333085L7.70766 0.333086C7.93237 0.333086 8.07281 0.552012 7.96046 0.727154L4.25279 6.50683Z" fill="#008CB8"/>
+                                    </svg>
+                                        
+                                </span>
+                                <p class="swiper__clients-text">
+                                    <w>Technologies:</w><br class="mobile"/> Grafana, Prometheus, InfluxDB, Go, NodeJS, 
+                                    Telegram API, React, Flussonic API, Docker, Ansible
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper__clients-content">
+                                <img src="img/swiper__clients-1.png" alt="" class="swiper__clients-img">
+                                <article class="swiper__clients-article mobile">
+                                    <h5 class="swiper__clients-title">
+                                        <s>Global-Media.info</s> /  IPTV Video Broadcasting Service
+                                    </h5>
+                                    <p class="swiper__clients-text">
+                                        <w>Technologies:</w><br/> Grafana, Prometheus, InfluxDB, Go, NodeJS, 
+                                        Telegram API, React, Flussonic API, Docker, Ansible
+                                    </p>
+                                </article>
+                            </div>
+                            <div class="swiper__clients-descr">
+                                <h5 class="swiper__clients-title">
+                                    <s>Global-Media.info</s> /  IPTV Video Broadcasting Service
+                                </h5>
+                                <p class="swiper__clients-text">
+                                    GlobalMedia is an advanced IPTV video broadcasting service. We developed a system for monitoring all server metrics presented in a user-friendly interface, including business metrics for in-depth analysis and clear visualization. After careful analysis of the collected data, we migrated to more optimized servers and pooled resources, reducing costs by over 70%. In addition, developed a Telegram bot prototype to simplify and speed up access and payment processes for customers. Additional tools were implemented on Go for real-time validation of video streams and a prototype administrative panel for customer management. All applications were adapted to run in containers and run in Docker, increasing their efficiency and scalability.
+                                </p>
+                                <span class="swiper__clients-more mobile">
+                                    <f>disclose</f>
+                                 
+                                    <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.25279 6.50683C4.14044 6.68197 3.85956 6.68197 3.7472 6.50683L0.0395427 0.727153C-0.0728106 0.552012 0.0676313 0.333085 0.292338 0.333085L7.70766 0.333086C7.93237 0.333086 8.07281 0.552012 7.96046 0.727154L4.25279 6.50683Z" fill="#008CB8"/>
+                                    </svg>
+                                        
+                                </span>
+                                <p class="swiper__clients-text">
+                                    <w>Technologies:</w><br class="mobile"/> Grafana, Prometheus, InfluxDB, Go, NodeJS, 
+                                    Telegram API, React, Flussonic API, Docker, Ansible
+                                </p>
+                            </div>
+                        </div>
+                       
+                    </div>
+                
+                    
+                    <div class="swiper__clients-navigation">
+                        <div class="swiper-pagination clients"></div>
+
+                        <div class="swiper__navigation-btns">
+                            <div class="swiper-button-prev clients">
+                                <img src="img/swiper__arrow.svg" alt="">
+                            </div>
+                            <div class="swiper-button-next clients">
+                                <img src="img/swiper__arrow.svg" alt="">
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+               
+
+            </div>
+        </section>
+
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <h2 class="contacts__title">Ready to discuss the <s>project?</s></h2>
+                <form class="contacts__form">
+                    <div class="contacts__form-box">
+                        <input type="text" class="contacts__form-input" name="name" id="name" placeholder="Name">
+                        <label for="name" class="contacts__form-label"></label>
+                        <input type="email" class="contacts__form-input" name="email" id="email" placeholder="Email">
+                        <label for="email" class="contacts__form-label"></label>
+                    </div>
+                  
+                    <textarea class="contacts__form-textarea" id="message" name="message" placeholder="Message"></textarea>
+                    <label for="message"></label>
+
+                    <div class="contacts__form-check">
+                        <input type="checkbox" class="custom-checkbox" id="contacts-check"  value="yes">
+                        <label for="contacts-check">I agree to the sending and processing of my  <a href="#">personal data.</a> </label>
+                    </div>
+
+                    <button class="contacts__form-btn">Leave a request</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <a href="#" class="footer__logo">
+                IT STUDIO X
+            </a>
+            <nav class="footer__nav">
+                <h5 class="footer__nav-title">Menu</h5>
+                <ul class="footer__nav-list">
+                    <li class="footer__nav-item"><a href="#services" class="footer__nav-link">Services</a></li>
+                    <li class="footer__nav-item"><a href="#process" class="footer__nav-link">Process</a></li>
+                    <li class="footer__nav-item"><a href="#tech" class="footer__nav-link">Technologies</a></li>
+                    <li class="footer__nav-item"><a href="#clients" class="footer__nav-link">Clients</a></li>
+                </ul>
+            </nav>
+            <div class="footer__contacts">
+                <div class="footer__contacts-descr">
+                    <h5 class="footer__nav-title">Contacts</h5>
+                    <ul class="footer__contacts-list">
+                        <li class="footer__contacts-item">
+                            <a href="#" class="footer__contacts-link">
+
+                                <img src="img/telegram.svg" alt="" class="footer__contacts-img">
+                            </a>
+                        </li>
+                        <li class="footer__contacts-item">
+                            <a href="#" class="footer__contacts-link">
+
+                                <img src="img/whatsapp.svg" alt="" class="footer__contacts-img">
+                            </a>
+                        </li>
+                        <li class="footer__contacts-item">
+                            <a href="#" class="footer__contacts-link">
+
+                                <img src="img/gmail.svg" alt="" class="footer__contacts-img">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__contacts-content">
+                    <a href="#" class="footer__logo mobile">
+                        IT STUDIO X
+                    </a>
+                    <p class="footer__contacts-text">All rights reserved © Ilya Manyakhin.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main-en.min.js"></script>
+</body>
+</html>
